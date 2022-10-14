@@ -1,0 +1,835 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Nunito:wght@300&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+#header{
+    background-image: url(../image/hero-bg.png );
+    background-attachment: fixed !important;
+    padding:10px 0px 80px 0px;
+    /* height: 600px; */
+    /* position: fixed; */
+}
+
+.navbar-brand {
+    margin-right: 6rem !important;
+}
+
+.navbar-brand .logo-heading h1{
+    color: #012970;
+    font-size: 1.9rem;
+    margin-left:4%;
+    font-weight: 600;
+    padding-top: 3px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.me-auto{
+    margin-left: auto !important;
+}
+
+.collapse .navbar-nav .nav-item .nav-link{
+    color: #013289 !important;
+    font-weight: 600;
+    margin-left: 14px;
+}
+
+.collapse .navbar-nav .nav-item .nav-link:hover{
+    color: #4154f1 !important;
+}
+
+.collapse .navbar-nav .nav-btn{
+    margin-left: 27px;
+
+}
+.collapse .navbar-nav .nav-btn button{
+    background-color: #4154f1 !important;
+    border-radius: 5px;
+    color: white;
+    padding: 9px 18px;
+    border: none;
+}
+
+.collapse .navbar-nav .nav-btn button:hover{
+    background-color: #5d6cee !important;
+}
+
+/* ............Hero Section......... */
+
+.header{
+    margin-top: 3rem;
+}
+
+.hero-left .hero-heading h1{
+    color: #013289;
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 10px 0px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.hero-left .hero-paragraph p{   
+    color: #757577;
+    font-size: 1.5rem;
+    margin: 15px 0px;
+}
+
+.hero-left .hero-btn button{
+    border: none;
+    padding: 10px 35px;
+    background-color: #4154f1;
+    color: white;
+    border-radius: 5px;
+    margin: 15px 0px;
+}
+
+/* -----------about---------- */
+.about{
+    background-color: #f6f9ff;
+    margin: 6rem 0%;
+}
+
+.about .about-left{
+    /* background-color: #f6f9ff; */
+    padding: 0px 20px;
+}
+
+
+.about .about-left .about-heading h6{
+    color: #4154f1;
+    margin-top: 1rem;
+}
+
+.about .about-left .about-description h3{
+    color: #012970;
+    margin-bottom: 2rem;
+}
+
+
+.about .about-left .about-paragraph p{
+    font-size: 1.2rem;
+    color: #606061;
+}
+
+.about .about-left .about-btn button{
+    background-color: #4154f1;
+    color: white;
+    border-radius: 5px;
+    margin: 15px 0px 15px 0px;
+    border: none;
+    padding: 10px 35px;
+}
+
+
+
+.about .about-right img{
+    margin: -20px 0px -50px 0px;
+    /* margin-bottom: -30px; */
+    /* margin-bottom: -20px; */
+}
+
+/* --------about end------- */
+
+.values .our-values h6{
+    color: #4154f1;
+    text-align: center;
+}
+
+.values .our-heading h1{
+    color: #012970;
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 600;
+}
+
+.our-heading{
+    margin-bottom: 30px;
+}
+
+.values .values-left{
+    padding: 20px;
+    border: 2px solid #f7f8fa;
+}
+
+.values-left:hover{
+    box-shadow: 3px 3px 10px;
+    border-radius: 5px;
+}
+
+
+.values .values-mid{
+    padding: 20px;
+    border: 2px solid #f7f8fa;
+    border-radius: 5px;
+}
+
+.values-mid:hover{
+    box-shadow: 3px 3px 5px;
+}
+
+
+.values .values-right{
+    padding: 20px;
+    border: 2px solid #f7f8fa;
+    border-radius: 5px;
+}
+
+.values-right:hover{
+    box-shadow: 3px 3px 5px;
+    /* transform: scale(1.1); */
+    /* transition:  0.5s; */
+    /* transition-delay: .2s; */
+}
+
+.values-img{
+    padding: 30px;
+}
+
+.values-heading h3{
+    color: #012970;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.values-paragraph{
+    font-size: 1.2rem;
+    color: #606061;
+    text-align: center;
+}
+
+/* ------------values end-------------------- */
+
+/* ----------count-box Start---------------------- */
+
+.counts{
+    margin-bottom: 30px;
+}
+
+.counts .count-box{
+    padding: 20px;
+    box-shadow: -2px -2px 10px 10px  #f7f7f9;
+    margin: 20px 0px;
+}
+
+.counts .count-box .happy-icon{
+    margin: 20px 20px;
+    color: #5f8ae3;
+}
+
+.counts .count-box .task-icon{
+    margin: 20px 20px;
+    color: #ee6c20;
+}
+
+.counts .count-box .head-icon{
+    margin: 20px 20px;
+    color: #15be56;
+}
+
+.counts .count-box .user-icon{
+    margin: 20px 20px;
+    color: #bc0c55;
+}
+
+.counts .count-box .numbers .no h1{
+    color: #0b198f;
+}
+
+.counts .count-box .numbers  .name p{
+    color: #444444;
+}
+
+/* ----------count-box end---------------------- */
+
+
+/* <!-- ----------FEATURES Start----------- --> */
+
+.features .feature h6{
+    color: #4154f1;
+    text-align: center;
+}
+
+.features .feature-heading h1{
+    color: #012970;
+    text-align: center;
+    font-weight: 600;
+}
+
+.features-box .items {
+    /* box-shadow: 3px 3px 5px; */
+    box-shadow: -2px -2px 10px 10px  #f7f7f9;
+    padding: 1rem;
+    margin: 1rem 0px;
+}
+
+.features-box .items .item-icon i{
+    margin: 0% 10px;
+    color: #013289;
+}
+
+.features-box .items .item-icon i:hover{
+    color:  #1863e4;
+    /* background-color: #f6f9ff ; */
+}
+
+.features-box .items .item-text p{
+    color: #013289;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+
+/* <!-- ----------FEATURES END-------------- --> */
+
+/* <!-- ----------FEATURES-2 START-------------- --> */
+
+.feature-2-left .feature-2-heading h1{
+    color: #012970;
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: Sarabun !important;
+}
+
+
+/* <!-- ----------FEATURES-2 END-------------- --> */
+
+/* <!-- ----------FEATURES-3 START----------- --> */
+.feature-3-heading h1{
+    color: #012970;
+    text-align: center;
+    font-weight: 600;
+    font-size: 2rem;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.items-3 .item-3-icon i{
+    color: #0245bc !important;
+    margin-right: 30px !important;
+    font-size: 2.5rem;
+}
+
+.items-3 .feature-3-heading h4{
+    color: #012970;
+    font-size: 1.3rem;
+    font-weight: 600;
+    font-family: Sarabun !important;
+}
+
+.items-3 .feature-3-paragraph p{
+    color: #b9b9b9;
+}
+
+
+/* <!-- ----------FEATURES-3 End----------- --> */
+
+/* <!-- ----------SERVICES START----------- --> */
+
+.services h6{
+    text-align: center;
+    color: #4154f1; 
+    font-weight: 600;
+}
+
+.services-heading h1{
+    color: #012970;
+    text-align: center;
+    font-weight: 800;
+    font-size: 2.5rem;
+    font-family: 'Varela Round', sans-serif;
+}
+
+/* ----------SERVICE-BOX-1 START----------- */
+
+.service-box1{
+    padding: 65px 30px;
+    border-bottom:3px solid #2db6fa;
+    border-radius: 5px;
+    transition: 0.3s;
+    box-shadow: -2px -2px 10px 10px  #f7f7f9;
+    text-align: center;
+}
+
+.service-box1:hover{
+    background-color:#2db6fa ;    
+}
+
+.service-icon1 i{
+    color:  #2db6fa;
+    padding: 20px;
+    background-color: #dbf3fe;
+    border-radius: 5px;
+}
+
+.service-box1:hover .service-icon1 i{
+    background-color:  white;
+}
+
+.service-heading1 h3{
+    text-align: center;
+    /* font-family: 'Nunito', sans-serif; */
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #464646;    
+}
+
+.service-box1:hover h3{
+    color: white;
+}
+
+.service-paragraph1 p{
+    text-align: center;
+    color:#544a3d;
+    font-size: 1.1rem;
+}
+
+.service-box1:hover p{
+    color: white;
+}
+
+.service-btn1 button{
+    background: none;
+    border: none;
+    font-weight: 600;
+    color: #2db6fa;
+}
+
+.service-box1:hover button{
+    color: white;
+}
+
+/* ----------SERVICE-BOX-1 END----------- */
+
+/* ----------SERVICE-BOX-2 START----------- */
+
+.service-box2{
+    padding: 65px 30px;
+    border-bottom:3px solid #f68c09;
+    border-radius: 5px;
+    transition: 0.3s;
+    box-shadow: -2px -2px 10px 10px  #f7f7f9;
+    text-align: center;
+}
+
+.service-box2:hover{
+    background-color:#f68c09 ;   
+}
+
+.service-icon2 i{
+    color:  #f68c09;
+    padding: 20px;
+    background-color: #fde3c4;
+    border-radius: 5px;
+}
+
+.service-box2:hover .service-icon2 i{
+    background-color: white;
+}
+
+
+.service-heading2 h3{
+    text-align: center;
+    /* font-family: 'Nunito', sans-serif; */
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #464646;    
+}
+
+.service-box2:hover h3{
+    color: white;
+}
+
+.service-paragraph2 p{
+    text-align: center;
+    color:#544a3d;
+    font-size: 1.1rem;
+}
+
+.service-box2:hover p{
+    color: white;
+}
+
+.service-btn2 button{
+    background: none;
+    border: none;
+    font-weight: 600;
+    color: #f68c09;
+}
+
+.service-box2:hover button{
+    color: white;
+}
+
+/* ----------SERVICE-BOX-2 END----------- */
+
+/* ----------SERVICE-BOX-3 START----------- */
+
+.service-box3{
+    padding: 65px 30px;
+    transition: 0.3s;
+    border-bottom:3px solid #08da4e;
+    border-radius: 5px;
+    box-shadow: -2px -2px 10px 10px  #f7f7f9;
+    text-align: center;
+}
+
+.service-box3:hover{
+    background-color:#08da4e ; 
+}
+
+.service-icon3 i{
+    color:  #08da4e;
+    padding: 20px;
+    background-color: #cffddf;
+    border-radius: 5px;
+}
+
+.service-box3:hover .service-icon3 i{
+    background-color:  white;
+}
+
+.service-heading3 h3{
+    text-align: center;
+    /* font-family: 'Nunito', sans-serif; */
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #464646;    
+}
+
+.service-box3:hover h3{
+    color: white;
+}
+
+.service-paragraph3 p{
+    text-align: center;
+    color: #544a3d;
+    font-size: 1.1rem;
+}
+
+.service-box3:hover p {
+    color: white;
+}
+
+.service-btn3 button{
+    background: none;
+    border: none;
+    font-weight: 600;
+    color: #08da4e;
+}
+
+.service-box3:hover button{
+    color: white;
+} 
+
+/* ----------SERVICE-BOX-3 END----------- */
+
+/* ----------SERVICE-BOX-4 START----------- */
+
+.service-box4{
+    padding: 65px 30px;
+    border-bottom:3px solid #f27f84;
+    border-radius: 5px;
+    transition: 0.3s;
+    box-shadow: -2px -2px 10px 10px  #f7f7f9;
+    text-align: center;
+}
+
+.service-box4:hover{
+    background-color:#f27f84 ; 
+    color: white !important;   
+}
+
+.service-icon4 i{
+    color:  #f27f84;
+    padding: 20px;
+    background-color:#fef7f8;
+    border-radius: 5px;
+}
+
+.service-box4:hover .service-icon4 i{
+    background-color: white;
+}
+
+.service-heading4 h3{
+    text-align: center;
+    /* font-family: 'Nunito', sans-serif; */
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #464646;    
+}
+
+.service-box4:hover h3{
+    color: white;
+}
+
+.service-paragraph4 p{
+    text-align: center;
+    color: #544a3d;
+    font-size: 1.1rem;
+}
+
+.service-box4:hover p{
+    color: white;
+}
+
+.service-btn4 button{
+    background: none;
+    border: none;
+    font-weight: 600;
+    color: #f27f84;
+}
+
+.service-box4:hover button{
+    color: white;
+}
+
+/* ----------SERVICE-BOX-4 END----------- */
+
+/* ----------SERVICE-BOX-5 START----------- */ 
+
+.service-box5{
+    padding: 65px 30px;
+    transition: 0.3s;
+    border-bottom:3px solid #b50edf;
+    border-radius: 5px;
+    box-shadow: -2px -2px 10px 10px  #f7f7f9;
+    text-align: center;
+}
+
+.service-box5:hover{
+    background-color:#b50edf ;   
+}
+
+.service-icon5 i{
+    color:  #b50edf;
+    padding: 20px;
+    background-color: #f8e4fd;
+    border-radius: 5px;
+}
+
+.service-box5:hover .service-icon5 i{
+    background-color:  white;
+}
+
+.service-heading5 h3{
+    text-align: center;
+    /* font-family: 'Nunito', sans-serif; */
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #464646;    
+}
+
+.service-box5:hover h3{
+    color: white;
+}
+
+.service-paragraph5 p{
+    text-align: center;
+    color: #544a3d;
+    font-size: 1.1rem;
+}
+
+.service-box5:hover p{
+    color: white;
+}
+
+.service-btn5 button{
+    background: none;
+    border: none;
+    font-weight: 600;
+    color: #b50edf;
+}
+
+.service-box5:hover button{
+    color: white;
+}  
+
+/* ----------SERVICE-BOX-5 END----------- */
+
+/* ----------SERVICE-BOX-6 START----------- */
+
+.service-box6{
+    padding: 65px 30px;
+    border-bottom:3px solid #f51f9c;
+    transition: 0.3s;
+    border-radius: 5px;
+    box-shadow: -2px -2px 10px 10px  #f7f7f9;
+    text-align: center;
+}
+
+.service-box6:hover{
+    background-color:#f51f9c;  
+}
+
+.service-icon6 i{
+    color:  #f51f9c;
+    padding: 20px;
+    background-color: #feecf7;
+    border-radius: 5px;
+}
+
+.service-box6:hover .service-icon6 i{
+    background-color: white;
+}
+
+.service-heading6 h3{
+    text-align: center;
+    /* font-family: 'Nunito', sans-serif; */
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #464646;    
+}
+
+.service-box6:hover h3{
+    color: white;
+}
+
+.service-paragraph6 p{
+    text-align: center;
+    color: #544a3d;
+    font-size: 1.1rem;
+}
+
+.service-box6:hover p{
+    color: white;
+}
+
+.service-btn6 button{
+    background: none;
+    border: none;
+    font-weight: 600;
+    color:#f51f9c;
+}
+
+.service-box6:hover button{
+    color: white;
+}
+
+/* ----------SERVICE-BOX-6 END----------- */
+
+/* <!-- ----------SERVICES End----------- --> */
+
+/* --------------PRICING START----------------- */
+
+.pricing h6{
+    text-align: center;
+    color: #4154f1; 
+    font-weight: 600;
+    text-align: center;
+}
+
+.pricing-heading h1{
+    color: #012970;
+    text-align: center;
+    font-weight: 800;
+    font-size: 2.5rem;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.price-card{
+    padding: 40px 20px;
+    border-radius: 5px;
+    box-shadow: -2px -2px 10px 10px  #f7f7f9;
+    
+}
+
+.price-card:hover{
+    transform: scale(1.1);
+    transition:  0.5s;
+}
+
+.price-heading-1 h5{
+    text-align: center;
+    font-weight: 600;
+    color: #0fd6c2;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.price-heading-2 h5{
+    text-align: center;
+    font-weight: 600;
+    color: #7cce26;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.price-heading-3 h5{
+    text-align: center;
+    font-weight: 600;
+    color: #ffa445;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.price-heading-4 h5{
+    text-align: center;
+    font-weight: 600;
+    color: #ff0071;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.price-no {
+    display: flex;
+    justify-content: center;
+}
+
+.price-no sup{
+    top: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #464646;
+}
+
+.price-no p{
+    font-size: 35px;
+    font-weight: 600;
+    color: #464646;
+    margin: 0px 10px;
+}
+
+.price-no span{
+    position: relative;
+    /* left: 20px; */
+    font-size: large;
+    top: 20px;
+    color: grey;
+}
+
+.price-img img{
+    padding: 30px 40px;
+}
+
+.description li{
+    list-style-type: none;
+    text-align: center;
+    margin-top: 10px;
+    color: #444444 ;
+}
+
+.price-btn{
+    text-align: center;
+}
+
+.price-btn button{
+    padding: 10px 30px;
+    margin-top: 35px;
+    border-radius: 25px;
+    color: #1863e4;
+
+    border: 1px solid #1863e4;
+    background-color: #ffffff;
+    /* text-align: center; */
+}
+
+.price-btn button:hover{
+    background-color: #1863e4;
+    color: #ffffff;
+}
+
+/* --------------PRICING END----------------- */
+
+
+
